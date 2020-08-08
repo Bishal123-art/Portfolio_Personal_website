@@ -1,0 +1,166 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    /* font-size: 100%; */
+    /* font-weight: bold; */
+}
+
+.heading li a{
+    margin-top:10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ /* ul li a:hover{
+  
+} */
+.intro{
+    height: 470px;
+    background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./bg1.jpg') center center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hello{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 113px;
+    line-height: 15.4px; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    color: #fff;
+    font-size: 70px;
+    margin-left: 100px;
+    font-family: "Times New Roman", Times, serif;
+}
+.stream{
+    margin-left: 113px;
+    color: #fff;
+    font-family: initial;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+   font-weight: bold;
+   font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 10px;
+   padding: 10px;
+}
+span{
+    font-size: medium;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.rounded{
+    border-radius: 100px;
+}
+.second{
+   height: 470px;
+   background-color: rgb(43, 40, 40);
+}
+.social {
+    color: white;
+    padding: 5px;
+    margin-left: 20%;
+}
+.cv{
+   margin-top: 20px;
+   margin-left: 40%;
+}
+.sidebar{
+    font-family: 'Playfair Display'; 
+    font-size: 25px;
+    font-weight: bold;
+}
+/* about code started hear */
+.about{
+    text-align: center;
+    line-height: initial;
+    letter-spacing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.pragraph{
+    font-weight: 20px;
+    font-family: initial;
+}
+.Education{
+    text-align: center;
+    align-items: center;
+    padding-left: 40px;
+    /* margin-left: 70px; */
+
+}
+.head{
+    text-align: center;
+    align-items: center;
+    margin-right: 115px;
+    padding-bottom: 17px;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 75%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 80%; background-color: #3d3535;} /* Dark Grey */
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.mysqli {width: 80%; background-color: #1c0097;} /* Green */
+.ajax {width: 70%; background-color: #1f9707;} /* Blue */
+.bootstrap {width: 85%; background-color: #686602;} /* Red */
+.node{width: 65%; background-color: #ff0dff;} /* Dark Grey */
+
+/* award code start */
+.text-success{
+    /* font-size:  ; */
+    padding: 10px;
+    margin-left: 32%;
+}
+.certificate{
+    text-align: center;
+    font-size: 13px;
+}
